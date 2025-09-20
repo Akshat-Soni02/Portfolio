@@ -51,33 +51,38 @@ export const NAV_LINKS = [
     link: null,
   },
   {
+    id: "achievements",
+    title: "Achievements",
+    link: null,
+  },
+  {
     id: "contact",
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  // {
+  //   id: "source-code",
+  //   title: "Source Code",
+  //   link: "https://github.com/Manav7603/Portfolio/",
+  // },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI/ML Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Engineer",
     icon: creator,
   },
 ] as const;
@@ -141,100 +146,49 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Software Engineer",
+    company_name: "Searce Inc",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing full-stack web applications using React.js, Node.js, and modern JavaScript frameworks.",
+      "Building responsive and interactive user interfaces with modern CSS frameworks like Tailwind CSS.",
+      "Implementing backend APIs and database management using MongoDB and SQL databases.",
+      "Working with clients to understand requirements and deliver high-quality solutions.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Haraxy Technologies",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "May 2024 - July 2024",
+    points: [
+      "Created multiple web applications including CMS, ChatBot, and Stock Market Prediction systems.",
+      "Developed responsive web applications using HTML, CSS, JavaScript, and Python.",
+      "Implemented modern UI/UX designs with focus on user experience and accessibility.",
+      "Built and maintained various projects showcasing different technologies and frameworks.",
     ],
   },
 ] as const;
 
-// Testimonials
-export const TESTIMONIALS = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: user1,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: user2,
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: user3,
-  },
-] as const;
+// Testimonials - Removed as requested
+export const TESTIMONIALS = [] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "CMS - Content Management System",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A comprehensive Content Management System built with JavaScript that allows users to create, edit, and manage content with an intuitive interface and robust backend functionality.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -243,140 +197,261 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Manav7603/CMS",
+    // live_site_link: "https://github.com/Manav7603/CMS",
   },
   {
-    name: "Golds Gym",
+    name: "ChatBot with Chat Application",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "An intelligent chatbot application that provides real-time chat functionality with AI-powered responses, built using modern JavaScript technologies and featuring a clean, responsive UI.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "chat",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "https://github.com/Manav7603/ChatBot-with-Chat-Application",
+    live_site_link: "https://github.com/Manav7603/ChatBot-with-Chat-Application",
   },
   {
-    name: "Shoppy",
+    name: "Chat with Document",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "An innovative web application that enables users to interact with documents through chat interface, allowing for document analysis and Q&A functionality using AI technology.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "document",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    source_code_link: "https://github.com/Manav7603/Chat-with-Document",
+    // live_site_link: "https://github.com/Manav7603/Chat-with-Document",
   },
   {
-    name: "TikTok Clone",
+    name: "Movie Ticket Booking System",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "A comprehensive movie ticket booking system developed in C that provides users with an efficient way to browse movies, select seats, and book tickets with a user-friendly interface.",
     tags: [
       {
-        name: "nextjs",
+        name: "c",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "booking",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "system",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "https://github.com/Manav7603/Movie-Ticket-Booking-System",
+    // live_site_link: "https://github.com/Manav7603/Movie-Ticket-Booking-System",
   },
   {
-    name: "Cryptoverse",
+    name: "Stock Market Prediction",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "A machine learning-powered application that analyzes stock market data and provides predictions using advanced algorithms, built with Python and Jupyter Notebook for data analysis.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "ml",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "jupyter",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://github.com/Manav7603/Stock-Market-Prediction",
+    // live_site_link: "https://github.com/Manav7603/Stock-Market-Prediction",
   },
   {
-    name: "Travel Advisor",
+    name: "Store Management System",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "A comprehensive store management system built with Python that handles inventory, sales, customer data, and provides detailed analytics for efficient store operations.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "management",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "inventory",
         color: "pink-text-gradient",
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://github.com/Manav7603/Store-Management-System",
+    // live_site_link: "https://github.com/Manav7603/Store-Management-System",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    name: "GitHub",
+    icon: github,
+    link: "https://github.com/Manav7603",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/manav-pandya7603/",
   },
   {
-    name: "Twitter",
+    name: "X",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://x.com/ManavJAp",
+  },
+] as const;
+
+export const CODING_PROFILES = [
+  {
+    name: "LeetCode",
+    platform: "LeetCode",
+    rating: "1900+",
+    rank: "Knight (Top 4% globally)",
+    link: "https://leetcode.com/Manav_7603/",
+    color: "#FFA116",
   },
   {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
+    name: "Codeforces",
+    platform: "Codeforces",
+    rating: "1380+",
+    rank: "Pupil",
+    link: "https://codeforces.com/profile/Manav_7603",
+    color: "#1F8FFF",
+  },
+  {
+    name: "AtCoder",
+    platform: "AtCoder",
+    rating: "17 KYU",
+    rank: "17 KYU",
+    link: "https://atcoder.jp/users/Manav_7603",
+    color: "#00C851",
+  },
+  {
+    name: "HackerRank",
+    platform: "HackerRank",
+    rating: "5★ Algorithms",
+    rank: "5★ C++, 3★ CodeChef",
+    link: "https://www.hackerrank.com/profile/manavjpandya7603",
+    color: "#2EC866",
+  },
+  {
+    name: "CodeChef",
+    platform: "CodeChef",
+    rating: "1700+",
+    rank: "Div 2",
+    link: "https://www.codechef.com/users/manav7603",
+    color: "#7B241C",
+  },
+  {
+    name: "GeeksforGeeks",
+    platform: "GFG",
+    rating: "Practice",
+    rank: "Problem Solver",
+    link: "https://auth.geeksforgeeks.org/user/manavpanjd1w/practice",
+    color: "#34A853",
+  },
+] as const;
+
+export const ACHIEVEMENTS = [
+  {
+    title: "LeetCode Knight",
+    description: "Achieved Knight status with 1900+ rating, placing in top 4% globally",
+    icon: "🏆",
+    highlight: true,
+    stats: "1900+ Rating",
+    category: "Competitive Programming",
+    color: "#FFA116",
+  },
+  {
+    title: "Multi-Platform Mastery",
+    description: "Consistent high performance across multiple competitive programming platforms",
+    icon: "⚡",
+    highlight: true,
+    stats: "1380+ CF, 17 KYU AtCoder",
+    category: "Platform Diversity",
+    color: "#1F8FFF",
+  },
+  {
+    title: "Global Competition Success",
+    description: "Outstanding performance in international coding competitions with top rankings",
+    icon: "🌍",
+    highlight: true,
+    stats: "Rank 559 & 596 Globally",
+    category: "International Recognition",
+    color: "#00C851",
+  },
+  {
+    title: "Hackathon Champion",
+    description: "2nd position in HackNUthon 3.0 among 100+ teams, showcasing rapid prototyping skills",
+    icon: "🥈",
+    highlight: true,
+    stats: "2nd Place",
+    category: "Hackathon",
+    color: "#FF6B6B",
+  },
+  {
+    title: "Problem Solving Expert",
+    description: "Solved 1100+ Data Structures and Algorithms problems demonstrating deep technical knowledge",
+    icon: "💡",
+    highlight: false,
+    stats: "1100+ Problems",
+    category: "Algorithm Mastery",
+    color: "#4ECDC4",
+  },
+  {
+    title: "App Store Success",
+    description: "Co-Architected Expenzz (Beta) - A comprehensive expense tracking app on Google Play Store",
+    icon: "📱",
+    highlight: true,
+    stats: "Live on Play Store",
+    category: "Mobile Development",
+    color: "#45B7D1",
+  },
+  {
+    title: "HackerRank Excellence",
+    description: "5-star rating in Algorithms and C++, 3-star in CodeChef, demonstrating consistent performance",
+    icon: "⭐",
+    highlight: false,
+    stats: "5★ Algorithms",
+    category: "Skill Verification",
+    color: "#2EC866",
+  },
+  {
+    title: "CodeChef Division 2",
+    description: "Maintained 1700+ rating in CodeChef Division 2, showing sustained competitive performance",
+    icon: "🔥",
+    highlight: false,
+    stats: "1700+ Rating",
+    category: "Consistent Performance",
+    color: "#7B241C",
   },
 ] as const;

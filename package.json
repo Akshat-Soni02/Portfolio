@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Manav Pandya",
+    "email": "manav.pandya@example.com",
+    "url": "https://github.com/Manav7603"
   },
   "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
@@ -23,23 +23,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/Manav7603/3d-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://github.com/Manav7603/3d-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Manav7603/3d-portfolio/issues",
+    "email": "manav.pandya@example.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
+  "funding": [],
   "type": "module",
   "scripts": {
     "dev": "vite",

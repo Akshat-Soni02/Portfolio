@@ -21,14 +21,17 @@ export const Hero = () => {
         </div>
 
         {/* About Me */}
-        <div>
-          <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Shubham</span>
-          </h1>
-          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
-          </p>
+        <div className="relative">
+          <div className="absolute inset-0 neu-outset rounded-3xl opacity-20" />
+          <div className="relative p-8 rounded-3xl glass">
+            <h1 className={cn(styles.heroHeadText, "text-white")}>
+              Hi, I'm <span className="text-[#915eff]">Manav</span>
+            </h1>
+            <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
+            An enthusiast learner with <br className="sm:block hidden" />
+              a passion for coding 
+            </p>
+          </div>
         </div>
       </div>
 

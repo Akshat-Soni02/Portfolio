@@ -34,7 +34,8 @@ const Banner = ({ hide, setHide }: BannerProps) => {
       tabIndex={-1}
       className={`${
         hide ? "hidden" : "block"
-      } absolute h-20 top-0 left-0 z-50 flex justify-between w-full p-4 bg-primary shadow-md opacity-[0.98]`}
+      } absolute h-20 top-0 left-0 z-50 flex justify-between w-full p-4 bg-primary
+      shadow-md opacity-[0.98]`}
     >
       <div className="flex items-center mx-auto">
         <p className="flex items-center text-sm font-normal text-gray-500 ">
@@ -49,16 +50,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             <span className="sr-only">Light bulb</span>
           </span>
           <span>
-            Did you enjoy this portfolio? Take a look at my{" "}
-            <Link
-              to="https://www.sanidhyy.name"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
-            >
-              new portfolio
-            </Link>
-            .
+            Welcome to Manav Pandya's Portfolio! Explore my projects and skills.
           </span>
         </p>
       </div>
@@ -67,7 +59,8 @@ const Banner = ({ hide, setHide }: BannerProps) => {
           data-dismiss-target="#sticky-banner"
           onClick={handleBannerClose}
           type="button"
-          className="flex-shrink-0 inline-flex justify-center items-center text-gray-400 hover:bg-gray-800 rounded-lg text-sm p-1.5 "
+          className="flex-shrink-0 inline-flex justify-center items-center
+          text-gray-400 hover:bg-gray-800 rounded-lg text-sm p-1.5 "
         >
           <img src={close} alt="close" height={12} width={12} />
           <span className="sr-only">Close banner</span>

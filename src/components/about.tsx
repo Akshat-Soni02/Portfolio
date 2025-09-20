@@ -54,11 +54,12 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm a passionate full-stack developer with expertise in JavaScript, Python, and modern web technologies. 
+          As a competitive programmer with 1900+ LeetCode rating (top 4% globally) and 1100+ solved problems, 
+          I bring algorithmic thinking and optimization skills to every project. I specialize in creating dynamic 
+          web applications, AI-powered chatbots, and data-driven solutions. With experience in React, Node.js, 
+          and machine learning, I build efficient and scalable applications that solve real-world problems. 
+          Let's collaborate to bring your innovative ideas to life!
         </motion.p>
 
         {/* Service Card */}

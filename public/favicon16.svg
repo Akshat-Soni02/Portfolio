@@ -1,0 +1,19 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background circle -->
+  <circle cx="8" cy="8" r="8" fill="#050816"/>
+  
+  <!-- Accent border -->
+  <circle cx="8" cy="8" r="7" stroke="#915EFF" stroke-width="1"/>
+  
+  <!-- Letter M with gradient -->
+  <defs>
+    <linearGradient id="letterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#915EFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B084FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M3 12V3L5.5 6L8 3L10.5 6L13 3V12H11V7L8 4L5 7V12H3Z" fill="url(#letterGradient)"/>
+  
+  <!-- Diagonal line with gradient -->
+  <line x1="11" y1="2" x2="14" y2="14" stroke="url(#letterGradient)" stroke-width="0.8" stroke-linecap="round"/>
+</svg>
