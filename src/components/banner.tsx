@@ -50,7 +50,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             <span className="sr-only">Light bulb</span>
           </span>
           <span>
-            Welcome to Manav Pandya's Portfolio! Explore my projects and skills.
+            Welcome to Akshat Soni's Portfolio! Explore my projects and skills.
           </span>
         </p>
       </div>

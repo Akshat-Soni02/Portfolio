@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Manav Pandya",
-    "email": "manav.pandya@example.com",
-    "url": "https://github.com/Manav7603"
+    "name": "Akshat Soni",
+    "email": "Akshat.pandya@example.com",
+    "url": "https://github.com/Akshat7603"
   },
   "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Manav7603/3d-portfolio.git"
+    "url": "https://github.com/Akshat7603/3d-portfolio.git"
   },
-  "homepage": "https://github.com/Manav7603/3d-portfolio#readme",
+  "homepage": "https://github.com/Akshat7603/3d-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/Manav7603/3d-portfolio/issues",
-    "email": "manav.pandya@example.com"
+    "url": "https://github.com/Akshat7603/3d-portfolio/issues",
+    "email": "Akshat.pandya@example.com"
   },
   "funding": [],
   "type": "module",

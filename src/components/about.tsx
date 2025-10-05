@@ -54,12 +54,7 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a passionate full-stack developer with expertise in JavaScript, Python, and modern web technologies. 
-          As a competitive programmer with 1900+ LeetCode rating (top 4% globally) and 1100+ solved problems, 
-          I bring algorithmic thinking and optimization skills to every project. I specialize in creating dynamic 
-          web applications, AI-powered chatbots, and data-driven solutions. With experience in React, Node.js, 
-          and machine learning, I build efficient and scalable applications that solve real-world problems. 
-          Let's collaborate to bring your innovative ideas to life!
+          I embrace complex challenges as a full-stack engineer. I build resilient systems with established technologies like Java and JS/TS (React, Svelte, Next), specializing in microservices and cloud deployment on GCP. My commitment is to see projects through, from initial architecture to clean, scalable implementations.
         </motion.p>
 
         {/* Service Card */}

@@ -1,6 +1,14 @@
-# Manav Pandya's 3D Portfolio
+# Akshat Soni's 3D Portfolio
 
 A modern, responsive 3D portfolio website built with React, Three.js, and TypeScript. Features competitive programming achievements, interactive 3D elements, and a sleek dark theme with glassmorphism effects.
+
+---
+
+> **Disclaimer**  
+> This project is **not originally written by me**. It is a fork of [https://github.com/Manav7603/Portfolio](https://github.com/Manav7603/Portfolio).  
+> I do **not take any credit** for the original code or design.
+
+---
 
 ## Table of Contents
 
@@ -42,8 +50,8 @@ A modern, responsive 3D portfolio website built with React, Three.js, and TypeSc
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Manav7603/3d-portfolio.git
-cd 3d-portfolio
+git clone https://github.com/Akshat-Soni02/Portfolio.git
+cd Portfolio
 ```
 
 2. Install dependencies:
@@ -91,9 +99,9 @@ src/
 
 ## Contact
 
-- **GitHub**: [Manav7603](https://github.com/Manav7603)
-- **LinkedIn**: [manav-pandya7603](https://www.linkedin.com/in/manav-pandya7603/)
-- **Email**: manav.pandya@example.com
+- **GitHub**: [Akshat-Soni02](https://github.com/Akshat-Soni02)
+- **LinkedIn**: [Akshat-Soni](https://www.linkedin.com/in/-akshat-soni/)
+- **Email**: akshat.soni@example.com
 
 ## License
 

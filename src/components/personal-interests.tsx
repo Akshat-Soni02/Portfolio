@@ -23,7 +23,7 @@ const InterestCard = ({ icon, title, description }: { icon: string; title: strin
 
 const PersonalInterests = () => {
   const interests = [
-    { icon: "🏐", title: "Volleyball", description: "State level player" },
+    { icon: "📝", title: "Blogs", description: "Writing about tech and life" },
     { icon: "📚", title: "Reading", description: "Love exploring books" },
     { icon: "♟️", title: "Chess", description: "Strategic thinking" },
     { icon: "🏃", title: "Outdoor Games", description: "Active lifestyle" },

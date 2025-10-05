@@ -92,7 +92,7 @@ const Achievements = () => {
             <span className="text-accent"> Recognition</span>
           </h2>
           <p className="text-secondary text-[16px] max-w-3xl mx-auto leading-[28px]">
-            Competitive programming excellence, hackathon victories, and consistent performance across platforms
+            Hackathon victories, Open source contribution and consistent performance across platforms
           </p>
         </motion.div>
 
@@ -102,20 +102,20 @@ const Achievements = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12"
         >
           <div className="text-center p-4 rounded-xl glass-strong border border-accent/30 cursor-pointer hover:shadow-accent-glow transition-all duration-300 card-lift">
-            <div className="text-2xl font-bold text-accent mb-1">1900+</div>
+            <div className="text-2xl font-bold text-accent mb-1">1600+</div>
             <div className="text-secondary text-xs">LeetCode Rating</div>
           </div>
           <div className="text-center p-4 rounded-xl glass-strong border border-accent/30 cursor-pointer hover:shadow-accent-glow transition-all duration-300 card-lift">
-            <div className="text-2xl font-bold text-accent mb-1">1100+</div>
-            <div className="text-secondary text-xs">Problems Solved</div>
+            <div className="text-2xl font-bold text-accent mb-1">1</div>
+            <div className="text-secondary text-xs">Medium Tech Blogs</div>
           </div>
           <div className="text-center p-4 rounded-xl glass-strong border border-accent/30 cursor-pointer hover:shadow-accent-glow transition-all duration-300 card-lift">
-            <div className="text-2xl font-bold text-accent mb-1">2nd</div>
-            <div className="text-secondary text-xs">Hackathon Place</div>
+            <div className="text-2xl font-bold text-accent mb-1">1st</div>
+            <div className="text-secondary text-xs">Hackathons Place</div>
           </div>
           <div className="text-center p-4 rounded-xl glass-strong border border-accent/30 cursor-pointer hover:shadow-accent-glow transition-all duration-300 card-lift">
-            <div className="text-2xl font-bold text-accent mb-1">6</div>
-            <div className="text-secondary text-xs">Platforms</div>
+            <div className="text-2xl font-bold text-accent mb-1">fineract</div>
+            <div className="text-secondary text-xs">Open source contribution</div>
           </div>
         </motion.div>
 
